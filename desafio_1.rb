@@ -15,3 +15,12 @@ Utilizando .count contar todos los elementos menores que 5.
 
 =end 
 
+a = [1, 9 ,2, 10, 3, 7, 4, 6] #Ejercicio
+
+a.map {|x| x + 1} #Utilizando map sumar uno a cada uno de los valores del array.
+
+a.map {|x| x.to_f} #Utilizando map convertir todos los valores a float.
+
+a.inject {|sum, x| x + sum}
+
+a.count {|x| x < 5}
