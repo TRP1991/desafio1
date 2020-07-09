@@ -21,7 +21,7 @@ a.map {|x| x + 1} #Utilizando map sumar uno a cada uno de los valores del array.
 
 a.map {|x| x.to_f} #Utilizando map convertir todos los valores a float.
 
-a.select {|x| x > 5} #Utilizando select descartar todos los elementos menores a 5 en el array.
+a.select {|x| x < 5} #Utilizando select descartar todos los elementos menores a 5 en el array.
 
 a.inject {|sum, x| x + sum} #Utilizando inject sumar todos los valores del array.
 
